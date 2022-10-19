@@ -1,0 +1,58 @@
+.banner{
+    border:5px solid red;
+    padding: 10px;
+}
+
+.one{
+    width: 250px; 
+    height: 200px;
+    float: right;
+}
+
+.two{
+    width: 1050px; 
+
+    height: 1000px;
+    float: left;
+}
+p{
+    clear: both;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.odin{
+    float: left;
+    background: red;
+    height: 400px;
+    width: 33.33%;
+}
+
+.dva{
+    float: left;
+    background: blue;
+    height: 400px;
+    width: 33.33%;
+}
+
+.three{
+    float: left;
+    background: green;
+    height: 400px;
+    width: 33.33%;
+}
+
+h1{
+    clear: both;
+}
+
+
+
+
+
+
+

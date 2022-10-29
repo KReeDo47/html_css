@@ -1,0 +1,86 @@
+*{
+    color: red;
+}
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+
+#p1{
+    letter-spacing: 20px;
+}
+
+.header h2{
+    color: green;
+}
+
+.header > h2{
+    color: purple;
+}
+div h2{
+    color: red;
+}
+
+div > h2{
+    color: blue;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 3rem;
+}
+
+p:hover{
+    color: blue;
+}
+
+.header2:hover{
+    background: blue;
+    color: white;
+}
+
+a:hover{
+    text-align: none;
+     
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color:midnightblue;
+}
+
+:root{
+    /*background: yellow;*/
+    font-size: 150%;
+}
+
+.h1forroot{
+    font-size: 3rem;
+}
+
+.absolute{
+    font-size: 24px;
+}
+.responsive{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,82 @@
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    background: red;
+    transform: translateX(50%);
+}
+.two{
+    background: green;
+    transform: translateY(-70px);
+}
+.three{
+    background: blue;
+    /*transform: translateX(95px);*/
+    transform: translate(10px, 50px);
+}
+
+/* TRANSFORM: SCALE() размер элемента умножается на число в скобках */
+
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.one{
+    background: grey;
+    transform: scaleX(0.5);
+}
+.two{
+    background: aqua;
+    transform: scaley(2);
+}
+.three{
+    background: blue;
+    transform: scale(1.5, 1.5);
+}
+
+/* TRANSFORM: ROTATE() */
+div{
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+}
+.one{
+    background: rgb(143, 53, 16);
+    transform: rotate(340deg);
+    
+}
+.two{
+    background: fuchsia;
+    transform: rotateZ(135deg);
+    transform: rotate(135deg);
+
+}
+.three{
+    background: khaki;
+    /*transform: rotateX(90deg);*/
+    transform: rotateY(70deg);
+}
+
+/* TRANSFORM: SKEW() */
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one{
+    background: darkorange;
+    transform: skewX(-40deg);
+}
+.two{
+    background-color: lawngreen;
+    transform: skewY(70deg);
+}
+.three{
+    background: slateblue;
+    transform: skew(40deg, -30deg);
+}
+

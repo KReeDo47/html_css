@@ -1,0 +1,74 @@
+div{
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+}
+.transition{
+    background: red;
+    transition: all 2s linear;
+} 
+
+.transition:hover{
+    background: yellow;
+    transform: translateX(100px);
+}
+.animation{
+    background: blueviolet;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    /*or*/
+    animation: move 5s infinite;     
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(100px);
+        background: red;
+    }
+    75%{
+        transform: translateX(-200px);
+        background: yellow;
+    }
+    100%{
+        transform: translateX(20px);
+        background: green;
+    }
+ } 
+
+ /* ANIMATION_FILL_MODE */
+ div{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    text-transform: uppercase;
+ }
+
+ .animation2{
+    background-color: rgb(0, 221, 13);
+    animation: move2 5s 7;
+    animation-fill-mode: forwards; /* определяет то, какой свойство будет у элемента, когда закончится анимация */
+}
+
+@keyframes move2{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+    50%{
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(410px);
+        opacity: 0.5;
+    }
+}

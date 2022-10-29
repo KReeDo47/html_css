@@ -1,0 +1,21 @@
+h1 {
+   /* text-shadow: 1px 1px 10px rgb(250, 17, 3); */
+   text-shadow: 17px -4px 0px rgba(255, 150, 150, 0.54); 
+}
+/* BOX-SHADOW */
+.box{
+    width: 200px;
+    height: 100px;
+    background: blue;
+    margin: 20px;
+    transition: all 1s linear;                
+} 
+/* BOX SHADOW CSS GENERATOR */
+.box:hover{
+    box-shadow: 15px 15px 16px 5px rgba(0,0,0,0.81);
+    
+    /* Browser Prefixes - префиксы никак не влияют не свойства CSS, но помогают понять, какой бразуер сможет это запустить, для каждого браузера свой префикс */
+    -webkit-box-shadow: 15px 15px 16px 5px rgba(0,0,0,0.81);
+    -moz-box-shadow: 15px 15px 16px 5px rgba(0,0,0,0.81);
+    
+}
